@@ -28,7 +28,7 @@ const handleSignUp = async(e)=>{
   
   setIsClicked(true)
 try {
-const request = await fetch ("http://localhost:3100/api/v1/register",{
+const request = await fetch ("https://taskduty-server-uc53.onrender.com/api/v1/register",{
   method:"POST",
   headers:{
     "content-type":"application/json"

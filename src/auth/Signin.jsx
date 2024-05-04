@@ -23,7 +23,7 @@ const SignIn = () => {
     setIsClicked(true);
 
     try {
-      const request = await fetch("http://localhost:3100/api/v1/login", {
+      const request = await fetch("https://taskduty-server-uc53.onrender.com/api/v1/login", {
         method: "POST",
         headers: {
           "Content-type": "application/json",
